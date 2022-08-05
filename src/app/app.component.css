@@ -1,3 +1,8 @@
+.botones {
+  position:absolute;
+  bottom: 5%;
+}
+
 .btn-menu {
   margin-left: 2em;
   margin-top: 2em;
@@ -8,6 +13,7 @@
   min-height: 50px;
   font-size: 22px;
   font-weight: 400;
+  outline:none; ;
 }
 
 .btn-menu:hover {
