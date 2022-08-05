@@ -1,7 +1,466 @@
-<div class="container bg-img">
-  <div class="row">
-    <div class="col">
-      <h1>Hola mundo!</h1>
+<!-- Button trigger modal -->
+<button type="button" class="btn-menu" data-bs-toggle="modal" data-bs-target="#menuModal">
+  menú
+</button>
+<br>
+<button type="button" class="btn-menu" id="contacto" data-bs-toggle="modal" data-bs-target="#menuModal">
+  contacto
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="menuModal" tabindex="-1" aria-labelledby="menuModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="menuModalLabel">menú NIZA</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <!-- promos del día --------------------------------------------------------- -->
+        <div class="oscuro">
+          <button class="btn-tabla" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePromos" aria-expanded="false" aria-controls="collapsePromos">
+            Promos del día!
+          </button>
+        </div>
+
+        <div class="collapse" id="collapsePromos">
+          <div class="card card-body">
+
+            <table class="table table-striped">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Individuales</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Café mediano (8 oz) c/2 medialunas</td>
+                  <td>$420</td>
+                </tr>
+                <tr>
+                  <td>Café grande (12 oz) c/2 medialunas</td>
+                  <td>$480</td>
+                </tr>
+              </tbody>
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Para compartir</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2 café 12 oz + picoteo de algarroba a elección</td>
+                  <td>$1200</td>
+                </tr>
+                <tr>
+                  <td>2 café 12 oz + picoteo dulce a elección</td>
+                  <td>$1150</td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+        </div>
+        <!-- ------------------------------------------------------------------------ -->
+
+        <!-- coffee ----------------------------------------------------------------- -->
+        <div class="oscuro">
+          <button class="btn-tabla" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCoffee" aria-expanded="false" aria-controls="collapseCoffee">
+            Coffee to go
+          </button>
+        </div>
+
+        <div class="collapse" id="collapseCoffee">
+          <div class="card card-body">
+
+            <table class="table table-striped">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Tipo</th>
+                  <th scope="col">Mediano</th>
+                  <th scope="col">Grande</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Espresso</td>
+                  <td>$290</td>
+                  <td>$350</td>
+                </tr>
+                <tr>
+                  <td>Americano</td>
+                  <td>$290</td>
+                  <td>$350</td>
+                </tr>
+                <tr>
+                  <td>Latte</td>
+                  <td>$300</td>
+                  <td>$360</td>
+                </tr>
+                <tr>
+                  <td>Flat White</td>
+                  <td>$300</td>
+                  <td>$360</td>
+                </tr>
+                <tr>
+                  <td>Cappuccino</td>
+                  <td>$330</td>
+                  <td>$390</td>
+                </tr>
+                <tr>
+                  <td>Macchiato</td>
+                  <td>$300</td>
+                  <td>$360</td>
+                </tr>
+                <tr>
+                  <td>Submarino</td>
+                  <td>$300</td>
+                  <td>$360</td>
+                </tr>
+                <tr>
+                  <td>Extra leche vegetal</td>
+                  <td>$190</td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+        </div>
+        <!-- ------------------------------------------------------------------------ -->
+
+        <!-- pastelería ------------------------------------------------------------- -->
+        <div class="oscuro">
+          <button class="btn-tabla" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePasteleria" aria-expanded="false" aria-controls="collapsePasteleria">
+            Pastelería
+          </button>
+        </div>
+
+        <div class="collapse" id="collapsePasteleria">
+          <div class="card card-body">
+
+            <table class="table table-striped">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Medialunas dulces y saladas (c/u)</th>
+                  <th scope="col">$70</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Media docena</td>
+                  <td>$400</td>
+                </tr>
+                <tr>
+                  <td>Docena</td>
+                  <td>$780</td>
+                </tr>
+              </tbody>
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Mini Budín vainilla o naranja</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Con glasé</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Con nuez</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Con chocolate</td>
+                  <td></td>
+                </tr>
+              </tbody>
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Mini Budín de avena</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Mascabo y chips de chocolate semiamargo</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Stevia y nueces</td>
+                  <td></td>
+                </tr>
+              </tbody>
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Porción de budín grande relleno</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><i>A base de vainilla o naranja, relleno con mousse de naranja o ganache de chocolate</i></td>
+                  <td></td>
+                </tr>
+              </tbody>
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Budín Vegano (2 porciones)</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Zanahoria y nueces glaseado</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Chocolate y remolacha</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Banana y coco glaseado</td>
+                  <td></td>
+                </tr>
+              </tbody>
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Alfajor grande</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Chocolate y dulce de leche</td>
+                  <td>$220</td>
+                </tr>
+                <tr>
+                  <td>Nueces y dulce de leche</td>
+                  <td>$280</td>
+                </tr>
+              </tbody>
+
+            </table>
+
+          </div>
+        </div>
+        <!-- ------------------------------------------------------------------------ -->
+
+        <!-- salado ----------------------------------------------------------------- -->
+        <div class="oscuro">
+          <button class="btn-tabla" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSalado" aria-expanded="false" aria-controls="collapseSalado">
+            Salado
+          </button>
+        </div>
+
+        <div class="collapse" id="collapseSalado">
+          <div class="card card-body">
+
+            <table class="table table-striped">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Tostadas (100% vegano pan de masa madre)</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Algarroba, nueces y semillas de calabaza</td>
+                  <td>$380 (x2 u)</td>
+                </tr>
+                <tr>
+                  <td>Con queso y mermelada</td>
+                  <td>$650</td>
+                </tr>
+                <tr>
+                  <td>Integral con semillas</td>
+                  <td>$300 (x2 u)</td>
+                </tr>
+                <tr>
+                  <td>Con queso y mermelada</td>
+                  <td>$570</td>
+                </tr>
+                <tr>
+                  <td>De papa con semillas</td>
+                  <td>$300 (x2 u)</td>
+                </tr>
+                <tr>
+                  <td>Con queso y mermelada</td>
+                  <td>$570</td>
+                </tr>
+              </tbody>
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Otras opciones</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Scon de queso</td>
+                  <td>$220</td>
+                </tr>
+                <tr>
+                  <td>Medialunas con JyQ</td>
+                  <td>$</td>
+                </tr>
+                <tr>
+                  <td>Tostado de JyQ</td>
+                  <td>$</td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+        </div>
+        <!-- ------------------------------------------------------------------------ -->
+
+        <!-- picoteo ---------------------------------------------------------------- -->
+        <div class="oscuro">
+          <button class="btn-tabla" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePicoteo" aria-expanded="false" aria-controls="collapsePicoteo">
+            Picoteo
+          </button>
+        </div>
+
+        <div class="collapse" id="collapsePicoteo">
+          <div class="card card-body">
+
+            <table class="table table-striped">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Alfajores (x6 unidades)</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Algarroba con dulce de leche</td>
+                  <td>$590</td>
+                </tr>
+                <tr>
+                  <td>Algarroba y arándano</td>
+                  <td>$590</td>
+                </tr>
+                <tr>
+                  <td>Soja</td>
+                  <td>$590</td>
+                </tr>
+                <tr>
+                  <td>De maicena</td>
+                  <td>$540</td>
+                </tr>
+                <tr>
+                  <td>De azúcar impalpable</td>
+                  <td>$540</td>
+                </tr>
+                <tr>
+                  <td>De chocolate</td>
+                  <td>$540</td>
+                </tr>
+              </tbody>
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Pepas (x8 unidades)</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Algarroba y membrillo</td>
+                  <td>$540</td>
+                </tr>
+                <tr>
+                  <td>Coco y avena</td>
+                  <td>$540</td>
+                </tr>
+                <tr>
+                  <td>De manzana</td>
+                  <td>$540</td>
+                </tr>
+                <tr>
+                  <td>De membrillo</td>
+                  <td>$540</td>
+                </tr>
+              </tbody>
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Scones (x5 unidades)</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Avena y pasas</td>
+                  <td>$590</td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+        </div>
+        <!-- ------------------------------------------------------------------------ -->
+
+        <!-- barritas de cereal ----------------------------------------------------- -->
+        <div class="oscuro">
+          <button class="btn-tabla" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBarritas" aria-expanded="false" aria-controls="collapseBarritas">
+            Barritas de cereal
+          </button>
+        </div>
+
+        <div class="collapse" id="collapseBarritas">
+          <div class="card card-body">
+
+            <table class="table table-striped">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Con base de Quinoa</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Chocolate bco o negro x25g</td>
+                  <td>$240</td>
+                </tr>
+                <tr>
+                  <td>Chocolate bco o negro x40g</td>
+                  <td>$250</td>
+                </tr>
+                <tr>
+                  <td>Con miel x30g</td>
+                  <td>$220</td>
+                </tr>
+                <tr>
+                  <td>Arándanos</td>
+                  <td>$240</td>
+                </tr>
+                <tr>
+                  <td>Frutos secos</td>
+                  <td>$240</td>
+                </tr>
+                <tr>
+                  <td>Semillas</td>
+                  <td>$240</td>
+                </tr>
+                <tr>
+                  <td>Cacao</td>
+                  <td>$240</td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+        </div>
+        <!-- ------------------------------------------------------------------------ -->
+
+      </div>
+
     </div>
   </div>
 </div>

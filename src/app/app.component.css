@@ -1,5 +1,53 @@
-body {
-    background-image: url('../assets/img/fondo-pag-web.jpg');
-    min-height: 100%;
-    background-size: cover;
-  }
+.btn-menu {
+  margin-left: 2em;
+  margin-top: 2em;
+  background-color: black;
+  color: white;
+  padding-left: 1em;
+  padding-right: 1em;
+  min-height: 50px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.btn-menu:hover {
+  background-color: #222;
+}
+
+#contacto {
+  margin-top: 1em;
+}
+
+.modal-header {
+  background-color: black;
+}
+
+.menuModalLabel {
+  font-size: 28px;
+}
+
+.btn-tabla {
+  background-color: black;
+  color: white;
+  padding-left: 1em;
+  padding-right: 1em;
+  min-height: 50px;
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 0.5em;
+}
+
+.btn-tabla:hover {
+  background-color: #222;
+}
+
+.thead-dark {
+  background-color: black;
+  color: white;
+}
+
+.oscuro {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 0.5em;
+}
