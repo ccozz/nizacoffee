@@ -1,3 +1,7 @@
+.tags {
+  display: none;
+}
+
 .botones {
   position:absolute;
   bottom: 5%;
@@ -13,7 +17,8 @@
   min-height: 50px;
   font-size: 22px;
   font-weight: 400;
-  outline:none; ;
+  outline:none;
+  border: none;
 }
 
 .btn-menu:hover {
@@ -47,6 +52,8 @@
   font-size: 22px;
   font-weight: 400;
   margin-top: 0.5em;
+  outline:none;
+  border: none;
 }
 
 .btn-tabla:hover {
