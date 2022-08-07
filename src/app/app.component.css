@@ -24,6 +24,12 @@
   margin-top: 1em;
 }
 
+.nostyle {
+  text-decoration: none;
+  color: inherit;
+  cursor: auto;
+}
+
 .modal-header {
   background-color: black;
 }
