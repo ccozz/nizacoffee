@@ -6,15 +6,25 @@
   <h2>cafe mar del plata</h2>
 </div>
 
-<div class="botones">
-<!-- Button trigger modal -->
-  <button type="button" class="btn-menu" data-bs-toggle="modal" data-bs-target="#menuModal">
-    menú
-  </button>
-  <br>
-  <button type="button" class="btn-menu" id="contacto">
-    <a href="mailto:contacto@nizacoffee.com" class="nostyle">contacto</a>
-  </button>
+<div class="row">
+  <div class="col">
+    <div class="botones">
+      <!-- Button trigger modal -->
+        <button type="button" class="btn-menu" data-bs-toggle="modal" data-bs-target="#menuModal">
+          menú
+        </button>
+        <br>
+        <button type="button" class="btn-menu" id="contacto" data-bs-toggle="modal" data-bs-target="#menuContacto">
+          contacto
+        </button>
+      </div>
+  </div>
+  <div class="col">
+    <div class="botones derecha">
+      <p>lunes a sábado 7:30 a 19:30 hs</p>
+      <p>hipólito yrigoyen 2976 - mdp</p>
+    </div>
+  </div>
 </div>
 
 <!-- Modal -->
@@ -468,6 +478,48 @@
           </div>
         </div>
         <!-- ------------------------------------------------------------------------ -->
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="menuContacto" tabindex="-1" aria-labelledby="menuModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="menuModalLabel">contacto</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <div class="oscuro">
+          <a href="https://wa.me/5492236697599" class="nostyle" target="_blank">
+            <button class="btn-tabla" type="button">
+              📱 whatsapp
+            </button>
+          </a>
+        </div>
+        <div class="oscuro">
+          <a href="https://www.instagram.com/nizacoffee" class="nostyle" target="_blank">
+            <button class="btn-tabla" type="button">
+              📸 instagram
+            </button>
+          </a>
+        </div>
+        <div class="oscuro">
+          <a href="mailto:contacto@nizacoffee.com" class="nostyle" target="_blank">
+            <button class="btn-tabla" type="button">
+              📨 email
+            </button>
+          </a>
+        </div>
+
+
 
       </div>
 
