@@ -27,7 +27,7 @@
 .nostyle {
   text-decoration: none;
   color: inherit;
-  cursor: auto;
+  cursor: pointer;
 }
 
 .modal-header {
